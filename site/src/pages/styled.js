@@ -18,6 +18,10 @@ button{
     cursor:pointer;
 }
 
+button:hover{
+    opacity:0.5;
+}
+
 
 
 .pt2{
@@ -217,7 +221,7 @@ textarea{
 
 
 .pt3{
-    height: 24em;
+    height: auto;
     background-color: white;
     margin-left:2em;
     width: 63em;
