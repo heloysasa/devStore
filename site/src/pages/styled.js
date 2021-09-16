@@ -23,7 +23,7 @@ button{
 .pt2{
     background-color: white;
     margin: 8em 4em 4em 4em;
-    height: 24em;
+    height: 26em;
 }
 
 
@@ -179,13 +179,13 @@ input{
 }
 
 .linkimagem input{
-    width: 41em;
+    width: 37em;
 }
 
 
 textarea{
     outline-style: auto;
-    width: 40em;
+    width: 37.6em;
 }
 
 
@@ -219,14 +219,9 @@ textarea{
 .pt3{
     height: 24em;
     background-color: white;
-    margin-left:4em;
-    margin-right:4em;
-    height:90vh;
-    
-    overflow: hidden;
-    overflow-y: scroll;
-    height: 2500px;
-    max-height: 300px;
+    margin-left:2em;
+    width: 63em;
+
 }
 
 

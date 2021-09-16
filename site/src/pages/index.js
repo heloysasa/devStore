@@ -68,15 +68,13 @@ export default function Paginas(){
            else {
              toast.success('O produto foi alterado!');
              loading.current.complete();
+             limparCampos();
            }
      }
 
 
 
 
-
-
-     limparCampos();
      listar();
     }
 
@@ -216,7 +214,7 @@ export default function Paginas(){
                 <tr class= {i%2 === 0 ? "resultados" : "resultadosCinza"}>
                     <td class="img-ta"><img src= {item.img_produto} alt=""/></td>
                     <td> {item.id_produto}</td>
-                    <td title={item.nm_produto}>{item.nm_produto != null && item.nm_produto.length >= 25 ? item.nm_produto.substr(0,25) + '...' : item.nm_produto}</td>
+                    <td title={item.nm_produto}>{item.nm_produto != null && item.nm_produto.length >= 16 ? item.nm_produto.substr(0,25) + '...' : item.nm_produto}</td>
                     <td>{item.ds_categoria}</td>
                     <td>{item.vl_preco_por}</td>
                     <td>{item.qtd_estoque}</td>

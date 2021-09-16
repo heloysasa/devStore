@@ -6,7 +6,7 @@ export default function index() {
             <div class="lado-esquerdo">
         <div class="cabecalho">
             <div class="logo"><img src="/assets/images/logo.svg"/></div>
-            <div class="nome"><span>Dev</span>School</div>
+            <div class="nome"><span>Dev</span>Store</div>
         </div>
         <div class="barra">:|</div>
         <div class="especificacoes">
