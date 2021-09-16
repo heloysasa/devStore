@@ -19,7 +19,7 @@ export default function index(){
 
                 <div class="sair">
                     <button>
-                        <img src=""/>
+                        <img src="/assets/images/botSair.svg"/>
                     </button>
                 </div>
                 

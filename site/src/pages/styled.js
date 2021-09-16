@@ -23,7 +23,7 @@ button{
 .pt2{
     background-color: white;
     margin: 8em 4em 4em 4em;
-    height: 13em;
+    height: 24em;
 }
 
 
@@ -56,9 +56,9 @@ button{
 
 
 
+
 .conteudo{
     margin-bottom: 4.5em;
-    margin-left: 5em;
 }
 
 
@@ -67,7 +67,7 @@ button{
 .lado1{
     display:flex;
     flex-direction:row;
-    margin-left: 1.5em;
+    margin-left: 5.8em;
     
 }
 
@@ -96,6 +96,25 @@ button{
 
 .c{
     font: 700 1em Roboto;
+    margin-left: .5em;
+}
+
+.ce{
+    font: 700 1em Roboto;
+    margin-left: .7em;
+}
+
+
+
+.linkimagem{
+    display:flex;
+    flex-direction:row;
+    margin-top: 1em;
+    margin-left: 2.3em;
+}
+
+.linkimagem input{
+    width: 40em;
 }
 
 
@@ -104,6 +123,7 @@ button{
     display:flex;
     flex-direction:row;
     margin-top: 1em;
+    margin-left: 4.2em;
 }
 
 
@@ -144,6 +164,39 @@ input{
     outline-style: auto;
 }
 
+
+.lado3{
+    display:flex;
+    flex-direction:row;
+    margin-top: 1em;
+    margin-left: 4.2em;
+}
+
+
+.li{
+    font: 700 1em Roboto;
+    margin-left: .4em;
+}
+
+.linkimagem input{
+    width: 41em;
+}
+
+
+textarea{
+    outline-style: auto;
+    width: 40em;
+}
+
+
+.textareaa{
+    display:flex;
+    flex-direction:row;
+    font: 700 1em Roboto;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
 .bota{
     margin-left: 1.5em;
     margin-top: -.3em;
@@ -153,12 +206,13 @@ input{
 
 
 .bota button{
-    background-color:#EA10C7;
+    background-color:#119FDC;
     color:white;
     border:black;
     font: 700 1em Roboto;
     border-radius: 3em;
     padding: .5em .7em;
+    margin-top: 4.6em;
 }
 
 
@@ -210,7 +264,6 @@ input{
 
     font: 700 1em Roboto;
     margin-left: 2em;
-    margin-right: 2em;
     width: calc(100% - 4em);
     border-collapse: collapse;
     text-align: left;
@@ -226,7 +279,7 @@ th,td {
 .campos{
     align-items: center;
     justify-content: space-between;
-    background-color: #986CDF;
+    background-color: #119FDC;
     color:white;
     height: 3em;
 }
@@ -236,7 +289,12 @@ th,td {
 
 .resultados{
     justify-content: space-between;
-    height: 3em;
+    height: 2em;
+}
+
+.img-ta img{
+    width: 3em;
+    height:auto;
 }
 
 
@@ -245,17 +303,20 @@ th,td {
     border-radius: 50%;
     padding: .4em .4em;
     border: none;
-    margin-left: -2em;
+   
 }
 
 
-.boto{
+.boto > button{
     visibility: hidden;
 }
 
 
+
+
+
 tr:hover{
-    .boto{
+    .boto > button{
         visibility: visible;
     }
 }
@@ -265,9 +326,12 @@ tr:hover{
 
 .resultadosCinza{
     background-color: #f5f5f5;
-    height: 3em;
+    height: 2em;
 
 } 
 `
 
 export{Container}
+
+
+

@@ -20,14 +20,13 @@ button{
     height: 71px;
     top: 17px;
     left: 16.4em;
-    margin-top: -1em;
 
 }
 
 
 
 .imgs{
-    margin-top: .6em;
+    margin-top: .3em;
     margin-left: 1em;
 }
 
@@ -63,7 +62,7 @@ button{
     font: 700 1em Roboto;
     align-items: flex-end;
 
-    margin-top: 2em;
+    margin-top: 2.5em;
 }
 
 
@@ -74,7 +73,7 @@ button{
     align-items: center;
     justify-content: center;
     margin-left: 45em;
-    margin-top: .5em;
+   
 }
 
 
@@ -82,7 +81,7 @@ button{
     display:flex;
     align-items: center;
     border-radius: 50%;
-    background-color: #986CDF;
+    background-color: #119FDC;
     border: black;
     height: 34px;
     width: 34px;
@@ -98,7 +97,7 @@ button{
     display:flex;
     align-items: center;
     border-radius: 50%;
-    background-color: #986CDF;
+    background-color:#119FDC;
     border: black;
     height: 34px;
     width: 34px;
@@ -110,3 +109,4 @@ button{
 `
 
 export {Container}
+
